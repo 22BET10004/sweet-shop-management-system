@@ -1,4 +1,4 @@
-import { Sweet } from "../pages/Shop";
+
 import { useCart } from "../context/CartContext";
 
 export default function SweetCard({ sweet }: { sweet: Sweet }) {

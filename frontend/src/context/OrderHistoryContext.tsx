@@ -1,5 +1,8 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
-import type { CartItem } from "./CartContext";
+
+
+import type { CartItem } from "../types/cart";
+
+
 
 export type Order = {
   id: string;
@@ -8,6 +11,14 @@ export type Order = {
   date: string;
   orderDate: Date;
 };
+
+type CartItem = {
+  id: number;
+  name: string;
+  price: number;
+  quantity: number;
+};
+
 
 type OrderHistoryContextType = {
   orders: Order[];

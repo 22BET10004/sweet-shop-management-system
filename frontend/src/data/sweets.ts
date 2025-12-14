@@ -1,4 +1,13 @@
 // Using actual working image URLs from Pexels and Pixabay only
+export interface Sweet {
+  id: number;
+  name: string;
+  category: string;
+  price: number;
+  quantity: number;
+  image: string;
+}
+
 export const sweets = [
   {
     id: 1,

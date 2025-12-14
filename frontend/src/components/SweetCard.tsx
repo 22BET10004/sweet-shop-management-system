@@ -1,4 +1,4 @@
-
+import type { Sweet } from "../data/sweets";
 import { useCart } from "../context/CartContext";
 
 export default function SweetCard({ sweet }: { sweet: Sweet }) {
@@ -9,8 +9,7 @@ export default function SweetCard({ sweet }: { sweet: Sweet }) {
       <span className="badge">{sweet.category}</span>
       <img src={sweet.image} />
       <h3>{sweet.name}</h3>
-      <p>{sweet.description}</p>
-
+      
       <div className="price-row">
         <span className="price">₹{sweet.price}</span>
         <span>{sweet.quantity} left</span>

@@ -1,4 +1,5 @@
-import { createContext, useContext, useState } from "react";
+import type { CartItem } from "../types/cart";
+
 
 export type CartItem = {
   id: number;

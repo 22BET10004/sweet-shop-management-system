@@ -11,3 +11,8 @@ export const purchaseSweet = async (id: number) => {
   });
   return res.json();
 };
+
+export const addSweet = async (sweet: any) => {
+  return Promise.resolve(sweet);
+};
+

@@ -1,5 +1,6 @@
-import { createContext, useContext, useState, ReactNode } from "react";
-import { sweets as initialSweets } from "../data/sweets";
+import { createContext, useContext, useState } from "react";
+import type { ReactNode } from "react";
+
 
 export type Sweet = {
   id: number;

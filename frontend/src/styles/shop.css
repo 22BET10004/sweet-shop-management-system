@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #fffaf5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d66500;
+}
+
+.nav-links button {
+  margin-left: 12px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.nav-links .active {
+  background: #d66500;
+  color: white;
+  border: none;
+}
+
+.logout {
+  background: white;
+}
+
+/* HEADER */
+.header {
+  padding: 40px;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.search {
+  margin-top: 20px;
+  width: 60%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+/* GRID */
+.grid {
+  padding: 20px 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #fde8d7;
+  padding: 6px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d66500;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.cart-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: white;
+}
+
+.buy-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #d66500;
+  color: white;
+}

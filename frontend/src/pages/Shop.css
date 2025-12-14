@@ -1,0 +1,64 @@
+.shop-page {
+  padding: 40px 60px;
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+  margin: 30px 0;
+}
+
+.filters input,
+.filters select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  flex: 1;
+}
+
+.count {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.card button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #e86c00;
+  color: white;
+  cursor: pointer;
+}

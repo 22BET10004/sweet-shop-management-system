@@ -10,7 +10,7 @@ The focus of the project is on clean architecture, TypeScript correctness, and f
 🚀 Live Application
 
 🔗 Deployed URL
-https://assessment-submission-incubyte-3myl.vercel.app/
+
 
 ⚠️ Note: The backend APIs are mocked / local for frontend demonstration purposes.
 

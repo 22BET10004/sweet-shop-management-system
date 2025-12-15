@@ -6,12 +6,15 @@ This project was developed as part of the TDD Kata Assessment for the Next Steps
 The application allows users to browse sweets, add items to a cart, place orders, and track order history.
 The focus of the project is on clean architecture, TypeScript correctness, and frontend–backend separation.
 
+
 🚀 Live Application
 
 🔗 Deployed URL
 https://assessment-submission-incubyte-3myl.vercel.app/
 
 ⚠️ Note: The backend APIs are mocked / local for frontend demonstration purposes.
+
+
 
 🎯 Objective
 
@@ -31,6 +34,7 @@ Git & deployment best practices
 
 Readable, maintainable, and scalable code
 
+
 ✨ Features
 👤 User Features
 
@@ -48,6 +52,7 @@ Track orders using Order ID
 
 Persistent state using localStorage
 
+
 🛒 Cart Features
 
 Add to cart from shop
@@ -58,6 +63,7 @@ Automatic subtotal calculation
 
 Checkout simulation
 
+
 📦 Order Management
 
 Orders saved locally
@@ -65,6 +71,7 @@ Orders saved locally
 Track order details by ID
 
 View purchase date and total amount
+
 
 🧱 Technology Stack
 Layer	Technology
@@ -76,6 +83,7 @@ Routing	React Router v6
 Backend	Node.js + Express (local / mocked)
 Testing	Jest (backend structure)
 Deployment	Vercel
+
 
 📁 Project Structure
 sweet-shop-management-system/
@@ -104,6 +112,7 @@ sweet-shop-management-system/
 │
 └── README.md
 
+
 🔌 API Endpoints (Backend – Design Level)
 Sweets
 Method	Endpoint	Description
@@ -119,6 +128,7 @@ GET	/api/orders/:id	Track order
 
 APIs are implemented for structure and testing demonstration.
 
+
 🧪 Test-Driven Development (TDD)
 
 Backend logic structured with Red → Green → Refactor approach
@@ -130,6 +140,7 @@ API tests for routes
 Manual end-to-end testing of UI flows
 
 Tests are included to demonstrate understanding of TDD principles.
+
 
 ⚙️ Running Locally
 Prerequisites
@@ -157,9 +168,11 @@ cd backend
 npm install
 npm run dev
 
+
 💰 Currency
 
 All prices are displayed in Indian Rupees (₹ INR).
+
 
 📸 Screenshots
 <img width="1733" height="906" alt="image" src="https://github.com/user-attachments/assets/0d02c61b-148e-43c4-9387-8149afb9f74b" />
@@ -168,7 +181,6 @@ All prices are displayed in Indian Rupees (₹ INR).
 <img width="1707" height="865" alt="image" src="https://github.com/user-attachments/assets/87e15a6a-6807-4788-a023-39df579cf3f7" />
 <img width="1732" height="910" alt="image" src="https://github.com/user-attachments/assets/9efeb5b0-2ff2-464a-8100-e5a14276bb5d" />
 <img width="1746" height="903" alt="image" src="https://github.com/user-attachments/assets/c8baa7a6-61d5-4db9-a9ca-1b37c34a1e83" />
-
 
 
 🤖 AI Usage Declaration
@@ -191,11 +203,13 @@ Reflection
 AI was used as a learning and productivity aid.
 All code was reviewed, tested, and corrected manually, and final responsibility for design and implementation lies with the developer.
 
+
 👤 Author
 
 Manik Naharia
 Roll No: 22BET10004
 Chandigarh University
+
 
 ❤️ Acknowledgement
 
@@ -210,6 +224,7 @@ Type safety
 Real-world debugging and deployment practices
 
 The aim was not just to build a working application, but to demonstrate engineering discipline and problem-solving ability.
+
 
 📜 License
 

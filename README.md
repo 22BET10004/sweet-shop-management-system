@@ -9,7 +9,7 @@ The focus of the project is on clean architecture, TypeScript correctness, and f
 
 🚀 Live Application
 
-🔗 Deployed URL
+🔗 Deployed URL: sweet-shop-management-system-ub56.vercel.app
 
 
 ⚠️ Note: The backend APIs are mocked / local for frontend demonstration purposes.
